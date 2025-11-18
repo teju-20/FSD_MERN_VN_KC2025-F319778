@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Component</title>
+
+    <style>
+        .card {
+            width: 300px;
+            height: 400px;
+            background-color: #ffffff;
+            border: 2px dashed #999;        
+            border-radius: 10px;
+            padding: 15px;
+            margin: 20px;
+            box-shadow: 0 0 8px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            border-radius: 8px;
+            object-fit: cover;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+            font-size: 20px;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .card button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        .card button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <img src="https://images.pexels.com/photos/1955134/pexels-photo-1955134.jpeg" alt="Card Image">
+        
+        <h3>Beautiful Landscape</h3>
+        
+        <p>
+            Empty Highway Overlooking Mountain Under Dark Skies. This stunning view captures the essence of nature's beauty and tranquility.
+        </p>
+
+        <button>Learn More</button>
+    </div>
+
+</body>
+</html>

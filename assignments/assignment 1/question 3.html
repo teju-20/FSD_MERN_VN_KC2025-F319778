@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h2>Sign in </h2>
+    <form>
+        <label for="username">Username</label><br>
+        <input type="text" id="username" placeholder="Enter Username" required><br>
+        <br>
+        <label for="email">Email</label><br>
+        <input type="email" id="email" placeholder="Enter Email" required><br>
+        <br>
+        <label for="password">Password</label><br>
+        <input type="password" id="password" placeholder="Enter Password" required><br>
+        <br>
+        <label for="confirm-password">Confirm Password</label><br>
+        <input type="password" id="confirm-password" placeholder="Re-Enter Password" required><br>
+        <br>
+        <label for="dob">Date of birth</label><br>
+        <input type="date" id="dob" placeholder="DOB" required><br>
+        <br>
+        <label>Gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label>
+        <br><br>
+        <label for="country">Country:</label><br>
+        <select id="country" required>
+            <option value="select country">Select country</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="china">china</option><br>
+            <br>
+            <input type="checkbox" id="terms" required>
+            <label for="terms">I agree to the terms & conditions</label>
+            <br><br>
+            <button type="submit">Register</button>
+
+    </form>
+</body>
+
+</html>

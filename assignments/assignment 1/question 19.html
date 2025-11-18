@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navigation Menu</title>
+
+    <style>
+        
+        nav {
+            background-color: #333;
+            padding: 15px;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        
+        @media (min-width: 768px) and (max-width: 1024px) {
+            nav {
+                background-color: #0066cc; 
+            }
+        }
+
+        
+        @media (max-width: 768px) {
+            nav ul {
+                display: block;          
+                text-align: center;
+            }
+
+            nav ul li {
+                margin: 10px 0;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+</body>
+</html>

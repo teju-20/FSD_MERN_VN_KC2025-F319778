@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact — Portfolio</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="style all.css">
+</head>
+<body>
+
+  <!-- Header (sticky) -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">
+          <img src="https://via.placeholder.com/48" alt="logo" class="logo-img">
+          <span class="site-name">M.K. Tejashwini</span>
+        </a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <!-- Main content -->
+  <main class="container contact-main">
+    <section>
+      <h1>Contact Me</h1>
+      <p>Feel free to reach out for collaborations, freelance work, or questions about my projects.</p>
+    </section>
+
+    <section class="contact-grid">
+      <!-- Contact Form -->
+      <form id="contactForm" action="#" method="post" novalidate>
+        <label for="fullname">Full Name</label>
+        <input
+          type="text"
+          id="fullname"
+          name="fullname"
+          placeholder="Your full name"
+          required
+          minlength="2"
+        >
+
+        <label for="email">Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="you@example.com"
+          required
+        >
+
+        <label for="phone">Phone Number</label>
+        <input
+          type="tel"
+          id="phone"
+          name="phone"
+          placeholder="+91 9xxxxxxxxx"
+          pattern="^\+?[0-9\s\-]{7,15}$"
+          aria-describedby="phoneHelp"
+        >
+        <small id="phoneHelp">Optional — include country code.</small>
+
+        <label for="subject">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Subject"
+          required
+        >
+
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="6"
+          placeholder="Write your message"
+          required
+        ></textarea>
+
+        <div class="form-actions">
+          <button type="submit" class="btn">Send Message</button>
+        </div>
+      </form>
+
+      <!-- Contact Information / Aside -->
+      <aside class="contact-info" aria-labelledby="contactInfoHeading">
+        <h2 id="contactInfoHeading">Contact Information</h2>
+
+        <address>
+          <strong>Email:</strong>
+          <a href="mailto:contact@example.com">contact@example.com</a><br>
+          <strong>Phone:</strong> +91 98765 43210<br>
+          <strong>Location:</strong> Chennai, Tamil Nadu, India
+        </address>
+
+        <h3>Social</h3>
+        <ul>
+          <li><a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+
+        <div class="office-hours">
+          <h4>Office Hours</h4>
+          <p>Mon — Fri: 10:00 — 18:00</p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <p>&copy; <span id="year3"></span> M.K. Tejashwini. All rights reserved.</p>
+      </div>
+
+      <div class="footer-right social">
+        <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com" target="_blank" rel="noopener">GitHub</a>
+        <a href="mailto:contact@example.com">Email</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Main JS (menu toggle, year, simple validation) -->
+  <script src="main.js"></script>
+
+</body>
+</html>

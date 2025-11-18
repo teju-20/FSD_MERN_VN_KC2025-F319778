@@ -1,0 +1,29 @@
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;  
+    align-items: center;      
+    gap: 20px;              
+    padding: 20px;
+}
+
+
+.gallery a img {
+    width: 30%;               
+    max-width: 300px;
+    border-radius: 10px;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .gallery a img {
+        width: 45%;           
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery a img {
+        width: 100%;          
+    }
+}
