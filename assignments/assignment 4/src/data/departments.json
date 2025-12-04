@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cse",
+    "name": "Computer Science Engineering",
+    "description": "The CSE department focuses on software, algorithms, computing, and cutting-edge technologies.",
+    "courses": ["DSA", "OS", "DBMS", "AI & ML"],
+    "faculty": ["Dr. Kumar", "Dr. Meena"],
+    "labs": ["Programming Lab", "Networks Lab"]
+  },
+  {
+    "id": "it",
+    "name": "Information Technology",
+    "description": "IT department specializes in information systems, web technologies, and cloud computing.",
+    "courses": ["Web Development", "Cloud Computing", "Cyber Security"],
+    "faculty": ["Dr. Raj", "Dr. Smita"],
+    "labs": ["Software Lab", "Cloud Lab"]
+  },
+  {
+    "id": "ece",
+    "name": "Electronics & Communication Engineering",
+    "description": "ECE deals with circuits, communication systems, IoT, and embedded systems.",
+    "courses": ["Digital Electronics", "Communication Systems", "VLSI"],
+    "faculty": ["Dr. Arjun", "Dr. Priya"],
+    "labs": ["Circuit Lab", "VLSI Lab"]
+  },
+  {
+    "id": "mech",
+    "name": "Mechanical Engineering",
+    "description": "Mechanical department focuses on machines, manufacturing, design, and thermodynamics.",
+    "courses": ["Thermodynamics", "Fluid Mechanics", "Manufacturing Technology"],
+    "faculty": ["Dr. Naveen", "Dr. Shreya"],
+    "labs": ["Machine Lab", "Thermal Lab"]
+  },
+  {
+    "id": "civil",
+    "name": "Civil Engineering",
+    "description": "Civil engineering deals with construction, structures, transportation, and water resources.",
+    "courses": ["Structural Engineering", "Construction Materials", "Geotechnical Engineering"],
+    "faculty": ["Dr. Ramesh", "Dr. Kavitha"],
+    "labs": ["Material Testing Lab", "Survey Lab"]
+  },
+  {
+    "id": "mba",
+    "name": "Master of Business Administration",
+    "description": "MBA trains students in management, finance, HR, and business leadership.",
+    "courses": ["Marketing", "Finance", "HR Management"],
+    "faculty": ["Dr. Varun", "Dr. Lakshmi"],
+    "labs": ["Business Simulation Lab"]
+  }
+]
