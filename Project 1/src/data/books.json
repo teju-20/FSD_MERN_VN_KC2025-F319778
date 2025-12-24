@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Atomic Habits",
+    "author": "James Clear",
+    "genre": "Self Help",
+    "price": 399,
+    "image": "https://covers.openlibrary.org/b/id/10523362-L.jpg",
+    "description": "Build good habits and break bad ones."
+  },
+  {
+    "id": 2,
+    "title": "The Alchemist",
+    "author": "Paulo Coelho",
+    "genre": "Fiction",
+    "price": 299,
+    "image": "https://covers.openlibrary.org/b/id/8128691-L.jpg",
+    "description": "A story about destiny and dreams."
+  },
+  {
+    "id": 3,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "genre": "Programming",
+    "price": 699,
+    "image": "https://covers.openlibrary.org/b/id/9641654-L.jpg",
+    "description": "Best practices for writing clean code."
+  },
+  {
+    "id": 4,
+    "title": "Deep Work",
+    "author": "Cal Newport",
+    "genre": "Productivity",
+    "price": 450,
+    "image": "https://covers.openlibrary.org/b/id/9251996-L.jpg",
+    "description": "Rules for focused success."
+  },
+  {
+    "id": 5,
+    "title": "Think Like a Monk",
+    "author": "Jay Shetty",
+    "genre": "Motivation",
+    "price": 380,
+    "image": "https://covers.openlibrary.org/b/id/10594777-L.jpg",
+    "description": "Train your mind for peace and purpose."
+  }
+]
