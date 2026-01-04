@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb+srv://myAtlasDBUser:Teju%402005@myatlasclusteredu.mrvq3yb.mongodb.net/doctorApp")
+  .connect("mongodb+srv://myAtlasDBUser:Te5@myatlasclusteredu.mrvq3yb.mongodb.net/doctorApp")
   .then(() => console.log("MongoDB Connected"));
 
 app.use("/api/auth", authRoutes);
@@ -19,3 +19,4 @@ app.use("/api/doctor", doctorRoutes);
 app.use("/api/appointment", appointmentRoutes);
 
 app.listen(5000, () => console.log("Server running on 5000"));
+
